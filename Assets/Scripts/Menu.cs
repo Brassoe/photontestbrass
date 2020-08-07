@@ -31,6 +31,7 @@ public class Menu : Bolt.GlobalEventListener
 
     public override void SessionListUpdated(Map<Guid, UdpSession> sessionList)
     {
+        //hello my friend
         foreach ( var session in sessionList )
         {
             UdpSession photonSession = session.Value as UdpSession;
